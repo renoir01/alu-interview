@@ -9,7 +9,7 @@ def rain(walls):
     """
     Calculate how many square units of water will be retained after it rains.
 
-    :param walls: List of non-negative integers representing the heights of walls
+    :List of non-negative integers representing the heights of walls
     :return: Integer indicating the total amount of rainwater retained.
     """
     n = len(walls)
