@@ -4,11 +4,12 @@
 rain module
 """
 
+
 def rain(walls):
     """
     Calculate how many square units of water will be retained after it rains.
 
-    :param walls: List of non-negative integers representing the heights of walls.
+    :param walls: List of non-negative integers representing the heights of walls
     :return: Integer indicating the total amount of rainwater retained.
     """
     n = len(walls)
@@ -41,4 +42,3 @@ if __name__ == "__main__":
 
     walls = [2, 0, 0, 4, 0, 0, 1, 0]
     print(rain(walls))  # Output: 6
-
